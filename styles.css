@@ -1,0 +1,57 @@
+body{
+  background-color: #D09CFA;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipSl4JDPLn4HHcnH3yXdZsYm9bjTloaz6IA&usqp=CAU");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBbSbxwoEoM8srHUKPTc0lvYcI88UEnfNXMQ&usqp=CAU"); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4EjaAoIAA3NPNUfGbGwEzvNS9eCe0twq1EA&usqp=CAU");
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,p {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+fieldset{
+  background-color: rgba(00,14,255,0.3);
+  border: none;
+
+}
+
+form {
+  margin: 0 auto;
+  padding: 20px 0;
+
+  min-width: 350px;
+  max-width: 600px;
+}
+
+label{
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+input, select, textarea {
+  width:100%;
+  margin: 1em 0;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inline, input[type="checkbox"] {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5rem 0 0;
+
+}
+
+input[type="submit"] {
+  width: 40%;
+  /* margin: 0 auto; */
+  text-align: center;
+}
